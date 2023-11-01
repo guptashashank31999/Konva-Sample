@@ -1,0 +1,80 @@
+html,body{
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+.navbar-bg-color{
+       /* background-image: url("./Images/1-surveillance_crop_2.png"); */
+        background-image: url("./Images/surveillanceImg_header_5.png");
+       
+        /* background-color: #394273; */
+}
+
+.footer-flex{
+        display: flex;
+        justify-content: center;
+        /* background: #394273; */
+        background:  #013543;
+        padding: 14px;
+}
+
+        
+.bg-img {
+        /* The image used */
+        background-image: url("./Images/surveillanceImg.jpg");
+        /* Center and scale the image nicely */
+        /* min-height: 380px; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 100vh
+}
+
+.login-box{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width:350px;
+        height: 350px;
+        transform: translate(-40%, -50%);
+        border: 1px solid #fff6;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 3px 11px 5px #ffffff30;
+        background-color: #042e3c8c;
+        text-align: center;
+}
+
+.btn-primary{
+        background-color: #0c77e3 !important; 
+        border: none;
+        width: 100%;
+        border-radius: 50px !important;
+}
+
+.form-control{
+        border-radius: 50px !important;   
+        background-color: #ffffff7a !important;
+        color:#fff !important;
+            
+}
+
+/* Form control placeholder style */
+.form-control::placeholder {
+        color: #fff !important; /* White color for placeholder text */
+        opacity: 1; /* Firefox specific property for full opacity of placeholder text */
+       }
+      
+      .form-control::-ms-input-placeholder { /* Edge 12 -18 */
+        color: #fff !important;
+      }
+.logo-spacing{
+        position: relative;
+        right: 80px;
+    
+}
+
+.input-spacing{
+        position: relative;
+        left: 80px;
+}
